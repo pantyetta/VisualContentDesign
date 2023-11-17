@@ -13,7 +13,7 @@ import Point5_3 from "@/public/point/5-3.jpg"
 
 const About = () => {
     return (
-        <div className='max-w-[90%] mx-auto my-12 tracking-wide lg:max-w-4xl'>
+        <div className='container mx-auto my-12 tracking-wide lg:max-w-4xl'>
             <div className="mb-8 lg:mb-16">
                 <h2 className="text-2xl font-bold mb-1">居心地の良い店内</h2>
                 <p className="mb-2">
