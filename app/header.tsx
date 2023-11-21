@@ -17,7 +17,7 @@ const Header = () => {
     <header className="sticky w-full border-b-[1px] drop-shadow-sm top-0 bg-white z-10">
       <div className="flex justify-between items-center px-6 mx-auto h-16 container">
         <Link href="/">
-          <Image src="/logo.svg" alt="logo" width={120} height={52} />
+          <p>イタリアン CIT</p>
         </Link>
         <div className="flex flex-row">
           <NavigationMenu>
