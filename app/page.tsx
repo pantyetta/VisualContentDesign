@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import shop from "../public/shop.png"
-import WineImg from "../public/point/4-1.jpg"
+import WineImg from "../public/about/4-1.jpg"
 
 export default function Home() {
   return (

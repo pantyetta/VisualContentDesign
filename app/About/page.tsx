@@ -1,15 +1,15 @@
 import Image from "next/image";
 import ShopInner from "@/public/shop-inner.jpg"
-import Point1_1 from "@/public/point/1-1.jpg"
-import Point1_2 from "@/public/point/1-2.jpg"
-import Point1_3 from "@/public/point/1-3.jpg"
-import Point2_1 from "@/public/point/2-1.jpg"
-import Point2_2 from "@/public/point/2-2.jpg"
-import Point3_1 from "@/public/point/3-1.jpg"
-import Point4_1 from "@/public/point/4-1.jpg"
-import Point5_1 from "@/public/point/5-1.jpg"
-import Point5_2 from "@/public/point/5-2.jpg"
-import Point5_3 from "@/public/point/5-3.jpg"
+import About1_1 from "@/public/about/1-1.jpg"
+import About1_2 from "@/public/about/1-2.jpg"
+import About1_3 from "@/public/about/1-3.jpg"
+import About2_1 from "@/public/about/2-1.jpg"
+import About2_2 from "@/public/about/2-2.jpg"
+import About3_1 from "@/public/about/3-1.jpg"
+import About4_1 from "@/public/about/4-1.jpg"
+import About5_1 from "@/public/about/5-1.jpg"
+import About5_2 from "@/public/about/5-2.jpg"
+import About5_3 from "@/public/about/5-3.jpg"
 
 const About = () => {
     return (
@@ -29,9 +29,9 @@ const About = () => {
                     毎日変わるおすすめメニューも大人気です。ワインと一緒にお楽しみ下さい。
                 </p>
                 <div className="flex w-full justify-between">
-                    <Image src={Point1_1} className="w-[32%] h-auto object-cover" alt="ポイント1-1" />
-                    <Image src={Point1_2} className="w-[32%] h-auto object-cover" alt="ポイント1-2" />
-                    <Image src={Point1_3} className="w-[32%] h-auto object-cover" alt="ポイント1-3" />
+                    <Image src={About1_1} className="w-[32%] h-auto object-cover" alt="ポイント1-1" />
+                    <Image src={About1_2} className="w-[32%] h-auto object-cover" alt="ポイント1-2" />
+                    <Image src={About1_3} className="w-[32%] h-auto object-cover" alt="ポイント1-3" />
                 </div>
             </div>
             <div className="mb-8 lg:mb-16">
@@ -41,8 +41,8 @@ const About = () => {
                     ワインに合わせたリーズナブルで美味しいアラカルトメニューも豊富です！！オーナーが美味しいと思うワインを取り揃えてます。お気軽にふらっとお立ち寄り下さいね<br />
                 </p>
                 <div className="flex w-full justify-between">
-                    <Image src={Point2_1} className="w-[48%] h-auto object-cover" alt="ポイント2-1" />
-                    <Image src={Point2_2} className="w-[48%] h-auto object-cover" alt="ポイント2-2" />
+                    <Image src={About2_1} className="w-[48%] h-auto object-cover" alt="ポイント2-1" />
+                    <Image src={About2_2} className="w-[48%] h-auto object-cover" alt="ポイント2-2" />
                 </div>
             </div>
             <div className="mb-8 lg:mb-16">
@@ -52,7 +52,7 @@ const About = () => {
                     お得なコースメニューは2980円から3種類ございます。飲み放題付きコースも人気です。女子会、お仲間とのご宴会におすすめです。
                 </p>
                 <div className="flex w-full justify-between">
-                    <Image src={Point3_1} className="w-full h-auto object-cover" alt="ポイント3-1" />
+                    <Image src={About3_1} className="w-full h-auto object-cover" alt="ポイント3-1" />
                 </div>
             </div>
             <div className="mb-8 lg:mb-16">
@@ -62,7 +62,7 @@ const About = () => {
                     コスパ最高の美味しいワインを取り揃えております。日替わりグラスワインは580円〜美味しいワインを気軽にお楽しみください。ボトルワインも各種ご用意しております。
                 </p>
                 <div className="flex w-full justify-between">
-                    <Image src={Point4_1} className="w-full h-auto object-cover" alt="ポイント4-1" />
+                    <Image src={About4_1} className="w-full h-auto object-cover" alt="ポイント4-1" />
                 </div>
             </div>
             <div className="mb-8 lg:mb-16">
@@ -72,9 +72,9 @@ const About = () => {
                     ワインとチーズをお楽しみください。オーナーシェフが厳選した絶品チーズを使ったメニューも人気です。
                 </p>
                 <div className="flex w-full justify-between">
-                    <Image src={Point5_1} className="w-[32%] h-auto object-cover" alt="ポイント4-1" />
-                    <Image src={Point5_2} className="w-[32%] h-auto object-cover" alt="ポイント4-2" />
-                    <Image src={Point5_3} className="w-[32%] h-auto object-cover" alt="ポイント4-3" />
+                    <Image src={About5_1} className="w-[32%] h-auto object-cover" alt="ポイント4-1" />
+                    <Image src={About5_2} className="w-[32%] h-auto object-cover" alt="ポイント4-2" />
+                    <Image src={About5_3} className="w-[32%] h-auto object-cover" alt="ポイント4-3" />
                 </div>
             </div>
         </div>
